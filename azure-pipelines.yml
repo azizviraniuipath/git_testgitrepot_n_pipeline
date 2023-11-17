@@ -16,7 +16,6 @@ steps:
     projectJsonPath: '$(Build.SourcesDirectory)'
     orchestratorConnection: 'UiPath Staging Connection'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
-
 - task: UiPathDeploy@4
   inputs:
     orchestratorConnection: 'UiPath Staging Connection'
