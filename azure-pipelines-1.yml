@@ -17,4 +17,4 @@ steps:
     priority: 'High'
     folderName: 'AzureDevOpsFolder'
     strategy: 'Specific'
-    robotsIds: 'uipath\aziz.virani'
+    robotsIds: 'av-robot-22-10\avadmin'
